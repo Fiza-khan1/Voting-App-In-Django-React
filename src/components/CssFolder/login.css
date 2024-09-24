@@ -1,0 +1,28 @@
+/* Custom styles for the Login page */
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .login-form .form-control {
+    border-radius: 4px;
+  }
+  
+  .login-form .btn {
+    border-radius: 4px;
+  }
+  

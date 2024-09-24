@@ -1,0 +1,121 @@
+/* Remove border from dropdown symbols */
+#dropdown-notifications,
+#dropdown-settings {
+  border: none !important; /* Remove border */
+}
+
+/* Keep icons' color unchanged on hover */
+#dropdown-notifications:hover,
+#dropdown-settings:hover {
+  background-color: transparent !important; /* Keep background transparent on hover */
+  color: white !important; /* Ensure color remains white on hover */
+}
+
+/* Custom styling for avatar */
+.avatar-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+/* Avatar image styling */
+.avatar-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none; /* Remove border from profile image */
+}
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Adjust spacing for icons */
+.dropdown-toggle {
+  border: none !important; /* Remove border */
+  box-shadow: none !important; /* Remove box shadow */
+  background-color: transparent !important; /* Ensure background stays transparent */
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  background-color: transparent !important; /* Ensure background stays transparent on hover */
+  color: inherit; /* Ensure color remains the same on hover */
+}
+
+/* Specific styling for notification and settings icons */
+#dropdown-notifications,
+#dropdown-settings {
+  color: white; /* Set default icon color */
+  background-color: transparent; /* Ensure background stays transparent */
+}
+
+/* Style for notifications dropdown */
+.notification-profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Default avatar styling */
+.notification-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff; /* Customize color */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Notification message styling */
+.notification-item {
+  display: flex;
+  align-items: center; /* Align items within notification */
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; /* Space between avatar and text */
+}
+
+.notification-message {
+  margin-bottom: 0.25rem;
+}
+
+.notification-timestamp {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Remove border from the dropdown menu */
+.dropdown-menu {
+  border: none !important; /* Remove border from dropdown menu */
+}
+
+.transparent-dropdown-toggle {
+  background-color: transparent !important; /* Makes the background transparent */
+  border: none !important; /* Removes the border */
+}
+
+.transparent-dropdown-toggle:focus {
+  box-shadow: none; /* Removes the focus outline */
+}

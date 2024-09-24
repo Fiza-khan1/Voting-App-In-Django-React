@@ -1,0 +1,41 @@
+/* Custom styles for the Sign-Up page */
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .signup-form .form-control {
+    border-radius: 4px;
+  }
+  
+  .signup-form .btn {
+    border-radius: 4px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  

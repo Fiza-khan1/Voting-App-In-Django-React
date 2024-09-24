@@ -1,0 +1,135 @@
+.containerProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-card {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0px 0 0; /* Reduced top margin */
+}
+.btn-edit:hover::after {
+  content: 'Edit Profile';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background: #007bff; */
+  color:black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 8px;
+  white-space: nowrap;
+  opacity: 0.9;
+  z-index: 10;
+}
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff; /* Border color for profile picture */
+}
+
+.btn-edit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #007bff; /* Adjust color as needed */
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-username {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.profile-email {
+  margin: 10px 0;
+}
+
+.profile-bio {
+  margin: 10px 0;
+  color: #666;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.form-group textarea {
+  min-height: 80px; /* Adjust height for textarea */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-save {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-cancel {
+  background-color: #6c757d;
+  color: #fff;
+}

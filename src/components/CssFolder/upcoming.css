@@ -1,0 +1,59 @@
+/* Container for the entire card row */
+.row {
+    margin-left: -15px; /* Negative margin to reduce gap between columns */
+    margin-right: -0px;
+  }
+  
+  /* Column containing the card */
+  .col {
+    padding-left: 0px; /* Padding to compensate for negative margin */
+    padding-right: 0px;
+  }
+  
+  .custom-card {
+    width: 300px; /* Fixed width for all cards */
+    height: auto; /* Fixed height for all cards */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center the card horizontally */
+    margin-bottom: 0px; /* Reduced bottom margin to decrease gap between cards */
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto; /* Fixed height for card header */
+  }
+  
+  .card-actions .icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    color: #007bff; /* Blue color for edit icon */
+  }
+  
+  .delete-icon {
+    color: #dc3545; /* Red color for delete icon */
+  }
+  
+  .btn-primary {
+    margin-top: auto; /* Push button to the bottom of the card */
+  }
+  
+  .description-text {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    color: #6c757d; /* Light color for description text */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Truncate overflow text with ellipsis */
+    height: auto; /* Set a fixed height for the description area */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure button is at the bottom of the card */
+  }
+  

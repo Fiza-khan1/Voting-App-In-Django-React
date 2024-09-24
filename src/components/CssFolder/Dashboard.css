@@ -1,0 +1,124 @@
+
+.custom-heading {
+  margin-bottom: 8px; /* Reduced margin from 20px to 8px */
+ color:black;
+  font-size: 2rem; 
+}
+
+/* General row adjustments for minimal height */
+.custom-row {
+  padding: 10px; /* Reduced padding for minimal height */
+  border-radius: 8px;
+  margin-bottom: 10px; /* Reduced spacing between rows */
+  color: white;
+  min-height: 50px; /* Ensures rows are not too tall */
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Admin row styling */
+.admin-row {
+  background-color: #04be9c;
+}
+
+/* Election row styling */
+.election-row {
+  background-color: #00796b;
+}
+
+/* Results row styling */
+.result-row {
+  background-color: #388e3c;
+}
+
+/* Row heading with reduced font size */
+.row-heading {
+  font-size: 1.1rem; /* Reduced font size */
+  margin-bottom: 4px; /* Tightened margin */
+}
+
+/* Button styling */
+.custom-btn {
+  background-color:lightslategrey;
+  color: white;
+  border: none;
+  padding: 6px 12px; /* Smaller padding for compact button size */
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color:rgb(71, 71, 129);
+}
+
+/* General container box adjustment */
+.large-box {
+  background-color: #f5f5f5; 
+  padding: 15px; /* Reduced padding for the large container */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+  .custom-row {
+    padding: 8px; /* Even less padding on smaller screens */
+  }
+
+  .custom-btn {
+    padding: 5px 10px; /* Smaller button padding on mobile */
+  }
+
+  .row-heading {
+    font-size: 1rem; /* Smaller heading size for mobile */
+  }
+}
+.custom-container {
+  background-color: #f8f9fa; /* Light background for the container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-heading {
+  color: #343a40; /* Darker color for heading */
+  font-weight: bold;
+}
+
+.admin-card, .election-card, .result-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-card {
+  background-color: #e9ecef; /* Light grey for admin card */
+}
+
+.election-card {
+  background-color: #ffffff; /* White for election cards */
+}
+
+.result-card {
+  background-color: #ffffff; /* White for result card */
+}
+
+.row-heading {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.custom-btn {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Darker on hover */
+  color: white;
+}

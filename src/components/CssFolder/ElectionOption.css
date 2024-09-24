@@ -1,0 +1,88 @@
+/* Container styling */
+.current-elections-page {
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card styling */
+.election-option-card {
+    background-color: #e0f7fa;
+    color: #004d40;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+/* Row styling */
+.election-option-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Title styling */
+.election-option-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Description styling */
+.election-option-description {
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.election-option-btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.election-option-btn:hover {
+    background-color: #004d40;
+}
+
+.election-option-btn.disabled {
+    background-color: #b2dfdb;
+    color: #004d40;
+    filter: grayscale(50%) brightness(80%);
+    cursor: not-allowed;
+}
+
+/* Change Vote Button styling */
+.election-option-change-btn {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    padding: 8px 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.election-option-change-btn:hover {
+    background-color: #00332d;
+}
+
+/* Success and Error Messages */
+.election-option-text-success {
+    color: green;
+    font-weight: bold;
+}
+
+.election-option-text-danger {
+    color: red;
+    font-weight: bold;
+}

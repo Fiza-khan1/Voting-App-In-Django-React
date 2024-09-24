@@ -1,0 +1,226 @@
+/* Updated CSS for CurrentElections component */
+.timer-text {
+    color: red; /* Make the timer text red */
+    font-size: 1rem; /* Adjust the font size if needed */
+    font-weight: bold; /* Make the text bold if needed */
+  }
+.custom-card {
+    background-color: #e0f7fa;
+    color: #004d40;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.myclass {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100vw;
+    color: white;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-card .btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.custom-card .btn:hover {
+    background-color: #004d40;
+}
+
+.text-end {
+    text-align: end;
+}
+/* Add this to currentElections.css */
+/* Add this to your currentElections.css */
+
+.card-footer {
+    display: flex;
+    justify-content: center; /* Center all buttons by default */
+    align-items: center;
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  .admin-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between icons and button */
+  }
+  
+  .icon-btn {
+    font-size: 1.25rem; /* Adjust size of the icon buttons */
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  
+
+  
+  .btn-primary {
+    font-size: 1rem; /* Ensure the 'Vote Now' button is appropriately sized */
+  }
+  
+  .admin-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .unauthenticated-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .unauthenticated-buttons .btn {
+    margin: 0;
+  }
+  /* Add this to your currentElections.css */
+
+.card-footer {
+    display: flex;
+    justify-content: center; /* Center all buttons by default */
+    align-items: center;
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  .admin-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between icons and button */
+  }
+  
+  .icon-btn {
+    font-size: 1.25rem; /* Adjust size of the icon buttons */
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .icon-btn i {
+    color: #000; /* Color of the icons */
+  }
+  
+  .btn-primary {
+    font-size: 1rem; /* Ensure the 'Vote Now' button is appropriately sized */
+  }
+  /* Add this to your currentElections.css */
+
+/* Ensure the FontAwesome icons are white */
+.icon-btn i {
+    color: white; /* Change icon color to white */
+  }
+  
+  .icon-btn {
+    font-size: 1.25rem; /* Adjust size of the icon buttons */
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: transparent; /* Optional: Ensure background is transparent */
+    border: none; /* Optional: Remove border */
+  }
+  
+  /* Optionally, you might want to add hover effects */
+  .icon-btn:hover i {
+    color: #ddd; /* Change color on hover for better visibility */
+  }
+  /* currentElections.css */
+
+/* Card container styling */
+.current-elections-page .custom-card {
+    border: 1px solid #ddd; /* Light border for card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  }
+  
+  /* .current-elections-page .custom-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  */
+  /* }  */
+  
+  /* Card body styling */
+  .current-elections-page .card-body {
+    padding: 20px; /* Padding inside the card body */
+    position: relative; /* Relative positioning for footer alignment */
+  }
+  
+  /* Timer text styling */
+  .current-elections-page .timer-text {
+    font-size: 1rem; /* Font size for timer text */
+    color: #d9534f; /* Red color for timer */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  /* Admin actions styling */
+  .current-elections-page .admin-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to start */
+    gap: 10px; /* Space between icons */
+  }
+  
+  /* Icon button styling */
+  .current-elections-page .icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white; /* Icon color */
+    background-color: #333; /* Background color for icons */
+    border: none;
+    transition: background-color 0.3s; /* Smooth color transition */
+  }
+  
+  .current-elections-page .icon-btn:hover {
+    background-color: #555; /* Darker background on hover */
+  }
+  
+  /* Footer button styling */
+  .current-elections-page .card-footer {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    padding: 10px;
+  }
+  
+  .current-elections-page .btn-primary {
+    margin: 5px; /* Margin around buttons */
+  }
+  
+  .current-elections-page .btn-outline-secondary {
+    color: #333;
+  }
+  
+  .current-elections-page .btn-outline-danger {
+    color: #d9534f;
+  }
+  

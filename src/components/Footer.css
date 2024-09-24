@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.footer {
+  background-color: #343a40; /* Dark background color */
+  color: #f8f9fa; /* Light text color */
+  font-size: 0.75rem; /* Smaller font size */
+  text-align: center;
+  padding: 0.5rem 0; /* Small padding */
+}
